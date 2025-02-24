@@ -86,14 +86,7 @@ yarn android
 - `npm test` or `yarn test`: Runs test suite
 - `npm run lint` or `yarn lint`: Runs linter
 
-### Environment Variables
 
-Create a `.env` file in the project root for environment-specific configurations:
-
-```
-API_URL=https://your-api-endpoint.com
-DEBUG=true
-```
 
 ## Project Structure
 
@@ -113,38 +106,6 @@ DEBUG=true
 └── App.tsx               # Root application component
 ```
 
-## Configuration
-
-### Navigation
-Uses React Navigation for handling app navigation.
-
-### State Management
-[Describe your state management approach - Redux, MobX, Context API]
-
-### Styling
-[Describe styling approach - StyleSheet, Styled Components, etc.]
-
-## Testing
-
-### Unit Tests
-Run tests using:
-```bash
-npm test
-```
-
-## Deployment
-
-### iOS
-[Instructions for building and deploying to App Store]
-
-### Android
-[Instructions for generating signed APK/AAB and deploying to Google Play]
-
-## Troubleshooting
-
-- Ensure all dependencies are installed correctly
-- Clear Metro bundler cache: `npx react-native start --reset-cache`
-- Rebuild native modules: `npx react-native clean-project-auto`
 
 
 
